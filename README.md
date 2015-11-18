@@ -4,7 +4,7 @@
 Standalone library for creating spies in Node.js. Easy to use. No dependancies.
 
 ```
-npm install simple-spy
+npm install simplespy
 ```
 
 # Usage
