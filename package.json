@@ -1,10 +1,14 @@
 {
   "name": "simple-spy",
   "version": "1.0.0",
-  "description": "Simple spyOn() function for creating spies.",
+  "description": "Standalone library for creating spies in Node.js. Easy to use. No dependancies.",
   "main": "SimpleSpy.js",
   "scripts": {
     "test": "tape 'test/SimpleSpy.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sterlingw/SimpleSpy.js.git"
   },
   "keywords": [
     "spy",
@@ -15,7 +19,8 @@
     "simple",
     "spy",
     "simplespy",
-    "simple-spy"
+    "simple-spy",
+    "simplespy.js"
   ],
   "author": "Sterling Whitley",
   "license": "MIT",
