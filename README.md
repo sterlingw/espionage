@@ -1,7 +1,6 @@
 # SimpleSpy.js 
 ![](https://travis-ci.org/sterlingw/SimpleSpy.js.svg?branch=master)
 [![Dependency Status](https://david-dm.org/sterlingw/SimpleSpy.js.svg)](https://david-dm.org/sterlingw/SimpleSpy.js)
-[![Coverage Status](https://coveralls.io/repos/sterlingw/SimpleSpy.js/badge.svg?branch=master&service=github)](https://coveralls.io/github/sterlingw/SimpleSpy.js?branch=master)
 
 Standalone library for creating spies in Node.js. Easy to use. No dependancies.
 
