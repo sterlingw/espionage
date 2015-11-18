@@ -1,0 +1,25 @@
+{
+  "name": "simple-spy",
+  "version": "1.0.0",
+  "description": "Simple spyOn() function for creating spies.",
+  "main": "SimpleSpy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spy",
+    "spies",
+    "spy",
+    "on",
+    "spyon",
+    "simple",
+    "spy",
+    "simplespy",
+    "simple-spy"
+  ],
+  "author": "Sterling Whitley",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
