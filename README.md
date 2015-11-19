@@ -14,7 +14,7 @@ SimpleSpy exports a simple `spyOn` function that accepts a single function as a 
 ## `spyOn`
 Accepts a function. Returns a spy.
 ``` js
-var spyOn = require('simple-spy');
+var spyOn = require('simplespy');
 
 function add5(num) {
   return num + 5;
@@ -26,7 +26,7 @@ var spy = spyOn(add5); // create spy
 ## `callCount`
 Doesn't accept arguments. Returns the number of times the spy has been called.
 ``` js
-var spyOn = require('simple-spy');
+var spyOn = require('simplespy');
 
 function add5(num) {
   return num + 5;
@@ -44,7 +44,7 @@ spy.callCount(); // returns 2
 ## `wasCalled`
 Doesn't accept arguments. Returns a boolean indicating if the spy has been called.
 ``` js
-var spyOn = require('simple-spy');
+var spyOn = require('simplespy');
 
 function add5(num) {
   return num + 5;
@@ -63,7 +63,7 @@ spy.wasCalled(); // returns true
 ## `wasCalledWith`
 Accepts a single argument. Returns a boolean indicating if the spy has been called with the given argument.
 ``` js
-var spyOn = require('simple-spy');
+var spyOn = require('simplespy');
 
 function add5(num) {
   return num + 5;
@@ -83,7 +83,7 @@ spy.wasCalledWith(2); // returns true
 ## `returned`
 Accepts a single argument. Returns a boolean indicating if the spy has been called with the given argument.
 ``` js
-var spyOn = require('simple-spy');
+var spyOn = require('simplespy');
 
 function add5(num) {
   return num + 5;
