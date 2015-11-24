@@ -21,6 +21,8 @@ function add5(num) {
 }
 
 var spy = espionage.spyOn(add5); // returns a spy
+
+spy(2); // returns 7
 ```
 
 ## `espionage.createSpy`
@@ -29,6 +31,8 @@ Doesn't accept arguments. Returns a spy. The spy returns undefined.
 var espionage = require('espionage');
 
 var spy = espionage.createSpy(); // returns a spy
+
+spy(); // returns undefined
 ```
 
 ## Spies
