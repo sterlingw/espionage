@@ -41,15 +41,52 @@ The functions `espionage.spyOn()` and `espionage.createSpy` both return a spy. S
 
 ### `spy.callCount`
 Doesn't accept arguments. Returns the number of times the spy has been called.
+```
+var spy = espionage.createSpy();
+
+spy();
+spy();
+
+spy.callCount(); // returns 2
+```
 
 ### `spy.wasCalled`
 Doesn't accept arguments. Returns a boolean indicating if the spy has been called.
+```
+var spy = espionage.createSpy();
+
+spy();
+
+spy.wasCalled(); // returns true
+```
 
 ### `spy.wasCalledWith`
 Accepts a single argument. Returns a boolean indicating if the spy has been called with the given argument.
+```
+function add2(num) {
+  return num + 2;
+}
+
+var spy = espionage.spyOn(add2);
+
+spy(2);
+
+spy.wasCalledWith(2); // returns true
+```
 
 ### `spy.returned`
 Accepts a single argument. Returns a boolean indicating if the spy has been called with the given argument.
+```
+function add2(num) {
+  return num + 2;
+}
+
+var spy = espionage.spyOn(add2);
+
+spy(2);
+
+spy.returned(4); // returns true
+```
 
 # Running tests
 `npm test`
