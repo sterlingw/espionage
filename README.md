@@ -1,3 +1,4 @@
+![](https://i.imgur.com/XMSlWqI.png?1)
 # Espionage 
 ![](https://travis-ci.org/sterlingw/espionage.svg?branch=master)
 [![Dependency Status](https://david-dm.org/sterlingw/espionage.svg)](https://david-dm.org/sterlingw/espionage)
@@ -55,3 +56,5 @@ Accepts a single argument. Returns a boolean indicating if the spy has been call
 
 # License
 MIT. Copyright (c) [Sterling Whitley](http://sterlingw.com)
+
+Icon made by [Freepik](http://www.freepik.com) from [Flaticon](http://www.flaticon.com) is licensed under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
