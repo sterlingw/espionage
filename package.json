@@ -1,6 +1,6 @@
 {
-  "name": "simplespy",
-  "version": "1.0.1",
+  "name": "espionage",
+  "version": "0.0.1",
   "description": "Standalone library for creating spies in Node.js. Easy to use. No dependancies.",
   "main": "SimpleSpy.js",
   "scripts": {
