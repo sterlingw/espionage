@@ -4,7 +4,7 @@
   "description": "Standalone library for creating spies in Node.js. Easy to use. No dependancies.",
   "main": "index.js",
   "scripts": {
-    "test": "tape 'test/index.js'"
+    "test": "tape 'test/*.js'"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,14 @@
     "spy",
     "on",
     "spyon",
+    "createspy",
     "simple",
     "spy",
     "simplespy",
     "simple-spy",
-    "simplespy.js"
+    "simplespy.js",
+    "espionage",
+    "espionage.js"
   ],
   "license": "MIT",
   "devDependencies": {
