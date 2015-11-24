@@ -1,5 +1,5 @@
 var test = require('tape');
-var spyOn = require('../SimpleSpy.js');
+var spyOn = require('../index.js');
 
 function add5(num) {
     return num + 5;
