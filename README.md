@@ -1,11 +1,11 @@
-# SimpleSpy.js 
-![](https://travis-ci.org/sterlingw/SimpleSpy.js.svg?branch=master)
-[![Dependency Status](https://david-dm.org/sterlingw/SimpleSpy.js.svg)](https://david-dm.org/sterlingw/SimpleSpy.js)
+# Espionage 
+![](https://travis-ci.org/sterlingw/espionage.svg?branch=master)
+[![Dependency Status](https://david-dm.org/sterlingw/espionage.svg)](https://david-dm.org/sterlingw/espionage)
 
 Standalone library for creating spies in Node.js. Easy to use. No dependancies.
 
 ```
-npm install simplespy
+npm install espionage
 ```
 
 # Usage
