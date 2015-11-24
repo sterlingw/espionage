@@ -4,6 +4,11 @@
 [![Dependency Status](https://david-dm.org/sterlingw/espionage.svg)](https://david-dm.org/sterlingw/espionage)
 
 Standalone library for creating spies in Node.js. Easy to use. No dependancies.
+- Minimal
+- Simple API
+- No dependencies
+- No global variables
+- No prototype modification
 
 ```
 npm install espionage
