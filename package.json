@@ -1,6 +1,6 @@
 {
   "name": "espionage",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Standalone library for creating spies in Node.js. Easy to use. No dependancies.",
   "main": "index.js",
   "scripts": {
